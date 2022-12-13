@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <title>Sailart</title>
+
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+	
+<style>
+body {
+	  background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=900&t=st=1670796773~exp=1670797373~hmac=7062a316a03f963c61467969b56f94bc1b38823725077799d4b26755a318e190");
+}
+    img {
+        width: 100%;
+    }
+    .height {
+        height: 10px;
+    }
+          
+    .image-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+    }
+          
+    .next {
+        right: 0;
+    }
+          
+    .previous,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        padding: 10px;
+        margin-top: -25px;
+    }
+          
+    .captionText {
+        color: #000000;
+        font-size: 14px;
+        position: absolute;
+        padding: 12px 12px;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+        
+    .fa {
+        font-size: 32px;
+    }
+          
+    .fa:hover {
+        transform: rotate(360deg);
+        transition: 1s;
+        color: white;
+    }
+          
+    .footerdot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbbbbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.5s ease;
+    }
+          
+    .active,
+    .footerdot:hover {
+        background-color: black;
+    }  
+  .slideNumber {
+        background-color: #778899;
+        color: white;
+        border-radius: 25px;
+        right: 0;
+        opacity: .5;
+        margin: 5px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        position: absolute;
+    }	
+	h6 {color: white;
+		background-color: black;
+		text-align: center;
+		padding: 2px;
+		}
+
+</style>
+  </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Sailart</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+
+               <li class="nav-item">
+                    <a class="nav-link" href="vepol.github.io/index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="vepol.github.io/gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="vepol.github.io/about.html">About</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="vepol.github.io/contacts&B.html">Contact</a>
+                </li>
+
+				 <li class="nav-item">
+                    <a class="nav-link" href="https://rhubarbies.blogspot.com/">Blog</a>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+    </nav>
+<br>
+  <div class="image-container">
+        <div class="slide">
+            <div class="slideNumber">Girasole</div>
+            <img src=
+"https://1.bp.blogspot.com/-4ugGdrDqrFo/WVAPRF7PrLI/AAAAAAAAAtA/zhK8YtTBjBwFN47NF4EkKjphCCJjm649wCEwYBhgL/s320/20170625_212902.jpg" alt="sunflower">
+        </div>
+        <div class="slide">
+            <div class="slideNumber">Lavanda</div>
+            <img src=
+"https://1.bp.blogspot.com/-Wl4-eThm1m0/WT6wQEaaKbI/AAAAAAAAAnA/rhIwZH1zogQHSDoLko8lZUv7vWlnqd5RgCLcB/s320/20170610_190444.jpg" alt="lavender">
+        </div>
+        <div class="slide">
+            <div class="slideNumber">Rhubarb</div>
+            <img src=
+"https://4.bp.blogspot.com/--UZVHNbbbKg/WSrofw8qEKI/AAAAAAAAAhc/_uqF-1aV5QUlSeHerbrz6ktqXh6TAAqkQCEw/s320/TEST%2B2.jpg" alt="rhubarb">
+        </div>
+  
+        <a class="previous" onclick="moveSlides(-1)">
+            <i class="fa fa-chevron-circle-left"></i>
+        </a>
+        <a class="next" onclick="moveSlides(1)">
+            <i class="fa fa-chevron-circle-right"></i>
+        </a>
+    </div>
+    <br>
+  
+    <div style="text-align:center">
+        <span class="footerdot"
+            onclick="activeSlide(1)">
+        </span>
+        <span class="footerdot"
+            onclick="activeSlide(2)">
+        </span>
+        <span class="footerdot"
+            onclick="activeSlide(3)">
+        </span>
+    </div>
+	
+	<script>
+    var slideIndex = 1;
+    displaySlide(slideIndex);
+  
+    function moveSlides(n) {
+        displaySlide(slideIndex += n);
+    }
+  
+    function activeSlide(n) {
+        displaySlide(slideIndex = n);
+    }
+  
+    /* Main function */
+    function displaySlide(n) {
+        var i;
+        var totalslides =
+            document.getElementsByClassName("slide");
+        var totaldots =
+            document.getElementsByClassName("footerdot");
+         
+        if (n > totalslides.length) {
+            slideIndex = 1;
+        }
+         
+        if (n < 1) {
+            slideIndex = totalslides.length;
+        }
+        for (i = 0; i < totalslides.length; i++) {
+            totalslides[i].style.display = "none";
+        }
+        for (i = 0; i < totaldots.length; i++) {
+            totaldots[i].className =
+            totaldots[i].className.replace(" active", "");
+        }
+        totalslides[slideIndex - 1].style.display = "block";
+        totaldots[slideIndex - 1].className += " active";
+    }
+</script>
+<br>
+<div data-role="footer"> 
+	<h6>© 2017 Saila Martikainen</h6> 
+</div> 
+
+</body>
+</html>
